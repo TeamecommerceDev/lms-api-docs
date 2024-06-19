@@ -19,7 +19,7 @@ Questa interfaccia mette a disposizione agli sviluppatori 3 endpoint per eseguir
 
 Richiamando questo endpoint il server restituirà una risposta in formato JSON contenente la lista delle le richieste di contatto da importare. Per "richieste di contatto da importare" si intendono tutte quelle richieste che non sono state contrassegnate come importate attraverso il seconto endpoint `mark-requests`. Questo evita di andare a fare una selezione di informazioni che sono state precedenetemente imporate.
 
-Di seguito viene riportata una risposta di esempio
+Di seguito viene riportata una risposta di esempio:
 
 ### Riposta JSON
 
