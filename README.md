@@ -3,7 +3,7 @@ Documentazione per l'interfaccia REST api dell'LMS
 
 ## Considerazioni iniziali
 
-⚠️ Quanto riportato in questa documentazione è una bozza e potrebbe essere soggetto a revisioni/modifiche.
+⚠️ Quanto riportato in questa documentazione è una bozza e potrebbe essere soggetta a revisioni/modifiche.
 
 ## Endopoint
 
@@ -30,7 +30,7 @@ Di seguito viene riportata una risposta di esempio:
     "data": [
         {
             "id": 19,
-            "date": "10/06/2024 - 10:14",
+            "datetime": "2024-06-10 10:14:50",
             "status": 2,
             "from_web": true,
             "source": 1,
@@ -80,7 +80,7 @@ Di seguito una semplice legenda utile per interpretare i dati ricevuti nella ris
 | Proprietà | Tipo | Descrizione |
 | :- | :- | :- |
 | `id` | `int` | Il codice identificativo univoco della richiesta di contatto |
-| `date` | `string` | La data in cui è stata inviata la richiesta di contatto |
+| `datetime` | `string` | La data nella quale è stata inviata la richiesta di contatto |
 | `status` | `int` | L'identificativo dello stato della richiesta di contatto |
 | `from_web` | `bool` | Indica se la richiesta arriva dal sito web oppure se è stata inserita manualmente |
 | `source` | `bool` | L'identificativo dell'origine della richiesta di contatto |
